@@ -25,7 +25,6 @@
     font-size: 20px
 }
 
-/* 设置中的X */
 .settingsModal .van-dialog__header .cancel[data-v-757efb12] {
     width: 20px;
     height: 20px;
@@ -67,6 +66,7 @@
     background-color: #12cdb7;
     color: #fff
 }
+
 .settingsModal .van-content-bottom[data-v-757efb12] {
     margin-top: 20px
 }
@@ -258,15 +258,13 @@
     font-family: Roboto, Segoe UI, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    
+    color: #372590;
     height: 100%;
     image-rendering: -webkit-optimize-contrast
 }
 
 #app .router[data-v-b045d904] {
-    
-    height: calc(10% - 50px)
-    
+    height: calc(100% - 50px)
 }
 
 .van-cell[data-v-18c87c81] {
@@ -291,7 +289,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    background: linear-gradient(90deg, #f1eaf1, #eaeef7);
     font-weight: 700;
     font-size: 20px;
     position: relative
@@ -341,7 +339,7 @@
 
 .currencyList .btContent .inputWrap .tokenInput[data-v-18c87c81] {
     height: 50px;
-    background-image: linear-gradient( 135deg, #79F1A4 10%, #0E5CAD 100%);
+    background: #f8f4ff;
     border: 1px solid #e9dcff;
     margin-top: 15px;
     border-radius: 4px
@@ -456,7 +454,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    background: linear-gradient(90deg, #f1eaf1, #eaeef7);
     font-weight: 700;
     font-size: 20px
 }
@@ -464,8 +462,7 @@
 .swapDetail .van-dialog__header .cancel[data-v-0e6ba2a4] {
     width: 20px;
     height: 20px;
-    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
-
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFmSURBVHgB7ZnbbcJAEEVn3QNpIEkxCT0kSiOgpJAg6AHRC48GoAcvHiODMBh7Z+5qhDTnDyTG98iPvYtDjLGgJ+apwzMuYI0LWOMC1riANS5gjUhgvDl8j3eHLwKhmZcswAcrKf6XZZx9rvdTUsIzmnkSCdUlFANNNBL8W55BCpIFlu+jOQX6bT5LJW7CVzOXr6MFJSI6A6u3lz+NxL3w9UwB4ktIKoEMz6jugVQJdHhGvQ4MlcgRnoEsZH0SucLXo5Cb+o/tfkKRppfhVIfMFf50DPC/Em2J66NhwzPwLtS+nM5kCM9kKXOhrOIO+A4BXKCrHmhrRxdQgXtPG0TteARMoOtRqa0dfUAE+p7zOSXUAkMXqVwSKoHUFTaHhFhAWg/QEiIBbbdBSiRXiWZPfJkgX2HbtaMowk/qrkx3EyvrQWftSIkgKXN8Fir1KNnDoucFf0dmjAtY4wLWuIA1LmCNC1hzBPJEC95XjuAsAAAAAElFTkSuQmCC);
     background-size: contain;
     background-repeat: no-repeat;
     cursor: pointer
@@ -567,7 +564,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    background: linear-gradient(90deg, #f1eaf1, #eaeef7);
     font-weight: 700;
     font-size: 20px
 }
@@ -575,7 +572,7 @@
 .pendingSwap .van-dialog__header .cancel[data-v-0cfcaf9e] {
     width: 20px;
     height: 20px;
-    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAABYlAAAWJQFJUiTwAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAFmSURBVHgB7ZnbbcJAEEVn3QNpIEkxCT0kSiOgpJAg6AHRC48GoAcvHiODMBh7Z+5qhDTnDyTG98iPvYtDjLGgJ+apwzMuYI0LWOMC1riANS5gjUhgvDl8j3eHLwKhmZcswAcrKf6XZZx9rvdTUsIzmnkSCdUlFANNNBL8W55BCpIFlu+jOQX6bT5LJW7CVzOXr6MFJSI6A6u3lz+NxL3w9UwB4ktIKoEMz6jugVQJdHhGvQ4MlcgRnoEsZH0SucLXo5Cb+o/tfkKRppfhVIfMFf50DPC/Em2J66NhwzPwLtS+nM5kCM9kKXOhrOIO+A4BXKCrHmhrRxdQgXtPG0TteARMoOtRqa0dfUAE+p7zOSXUAkMXqVwSKoHUFTaHhFhAWg/QEiIBbbdBSiRXiWZPfJkgX2HbtaMowk/qrkx3EyvrQWftSIkgKXN8Fir1KNnDoucFf0dmjAtY4wLWuIA1LmCNC1hzBPJEC95XjuAsAAAAAElFTkSuQmCC);
     background-size: contain;
     background-repeat: no-repeat;
     cursor: pointer
@@ -681,7 +678,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    background: linear-gradient(90deg, #f1eaf1, #eaeef7);
     font-weight: 700;
     font-size: 20px
 }
@@ -769,7 +766,7 @@
 }
 
 .swap[data-v-477c8266] {
-    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    background: #fff;
     width: 100%;
     border-radius: 20px;
     box-shadow: 0 6px 32px rgba(13, 13, 13, .08)
@@ -816,7 +813,7 @@
 .swap .container .box[data-v-477c8266] {
     padding: 10px 15px;
     border-radius: 10px;
-    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    background: #edeaf1;
     border: 1px solid #dedede
 }
 
@@ -921,7 +918,7 @@
 }
 
 .home .nav .selectd[data-v-308a57d5] {
-    
+    color: #12cdb7;
     position: relative;
     cursor: pointer
 }
@@ -932,26 +929,22 @@
     bottom: 0;
     height: 4px;
     width: 100%;
-    
-   
+    background: #12cdb7;
+    border-radius: 2px 2px 0 0
 }
-
-
 
 .home .content[data-v-308a57d5] {
     flex: 1;
     width: 100%;
-   
+    background: #f4f5f7;
     background-size: 100% 100%;
     padding: 0 16px
 }
 
 .home .content .router[data-v-308a57d5] {
-   
     margin: 0 auto;
     max-width: 600px;
     padding-top: 24px
-    
 }
 
 .van-cell[data-v-6d24ab82] {
@@ -997,7 +990,6 @@
 }
 
 .rightBox .content[data-v-6d24ab82] {
-    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
     display: flex;
     flex: 1;
     justify-content: space-between;
@@ -1273,8 +1265,3 @@
     padding-left: 16px
 }
 
-html {    
-    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%); 
-    background-size: cover;
-  }
-  

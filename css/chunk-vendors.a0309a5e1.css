@@ -7,16 +7,12 @@
 }
 
 html {
-    
-    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%); 
-    background-size: cover;
+    -webkit-tap-highlight-color: transparent
 }
-
 
 body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Segoe UI, Arial, Roboto, PingFang SC, miui, Hiragino Sans GB, Microsoft Yahei, sans-serif
-     
 }
 
 a {
@@ -365,14 +361,14 @@ ul {
     box-sizing: border-box;
     min-width: 16px;
     padding: 0 3px;
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;;
+    color: #fff;
     font-weight: 500;
     font-size: 12px;
     font-family: -apple-system-font, Helvetica Neue, Arial, sans-serif;
     line-height: 1.2;
     text-align: center;
     background-color: #ee0a24;
-    border: 1px solid #F067B4;
+    border: 1px solid #fff;
     border-radius: 16px;
     -webkit-transform: translate(50%, -50%);
     transform: translate(50%, -50%);
@@ -424,7 +420,7 @@ ul {
 
 .van-sidebar-item--select,
 .van-sidebar-item--select:active {
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;
+    background-color: #fff
 }
 
 .van-sidebar-item--select:before {
@@ -1475,7 +1471,7 @@ ul {
 
 .van-tabbar-item--active {
     color: #48dae9;
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;
+    background-color: #fff
 }
 
 .van-tabbar-item .van-info {
@@ -1539,7 +1535,7 @@ ul {
     left: -8px;
     z-index: 1;
     padding: 0 8px;
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;
+    background-color: #fff;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%)
 }
@@ -1692,7 +1688,7 @@ ul {
     color: #ed6a0c;
     font-size: 14px;
     line-height: 24px;
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;
+    background-color: #fffbe8
 }
 
 .van-notice-bar__left-icon,
@@ -1752,7 +1748,7 @@ ul {
     z-index: 1;
     line-height: 22px;
     text-align: center;
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;
+    background-color: #fff;
     -webkit-user-select: none;
     user-select: none
 }
@@ -1869,7 +1865,7 @@ ul {
     box-sizing: border-box;
     height: 100%;
     padding: 16px 8px;
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;
+    background-color: #fff
 }
 
 .van-grid-item__content:after {
@@ -1934,7 +1930,7 @@ ul {
     font-size: 10px;
     line-height: 1;
     text-align: center;
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;
+    background-color: #fff;
     cursor: pointer
 }
 
@@ -2006,7 +2002,7 @@ ul {
 }
 
 .van-checkbox__icon--checked .van-icon {
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;;
+    color: #fff;
     background-color: #48dae9;
     border-color: #48dae9
 }
@@ -2041,7 +2037,7 @@ ul {
 .van-coupon {
     margin: 0 12px 12px;
     overflow: hidden;
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;
+    background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 0 4px rgba(0, 0, 0, .1)
 }
@@ -2134,7 +2130,7 @@ ul {
 }
 
 .van-coupon--disabled:active {
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;
+    background-color: #fff
 }
 
 .van-coupon--disabled .van-coupon-item__content {
@@ -2252,7 +2248,7 @@ ul {
 }
 
 .van-radio__icon--checked .van-icon {
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;;
+    color: #fff;
     background-color: #48dae9;
     border-color: #48dae9
 }
@@ -2293,7 +2289,7 @@ ul {
     -webkit-align-items: center;
     align-items: center;
     padding: 0 4px;
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;;
+    color: #fff;
     font-size: 12px;
     line-height: 16px;
     border-radius: 2px
@@ -2340,7 +2336,7 @@ ul {
 }
 
 .van-tag--plain {
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;
+    background-color: #fff;
     border-color: currentColor
 }
 
@@ -2523,7 +2519,7 @@ ul {
     color: #000;
     font-size: 14px;
     line-height: 24px;
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;
+    background-color: #fff
 }
 
 .van-cell:after {
@@ -2715,7 +2711,7 @@ ul {
 }
 
 .van-collapse-item__title--disabled:active {
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;
+    background-color: #fff
 }
 
 .van-collapse-item__wrapper {
@@ -2730,7 +2726,7 @@ ul {
     color: #969799;
     font-size: 14px;
     line-height: 1.5;
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;
+    background-color: #fff
 }
 
 .van-field__label {
@@ -2921,7 +2917,7 @@ ul {
     align-items: center;
     box-sizing: border-box;
     padding: 10px 12px;
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;
+    background-color: #fff
 }
 
 .van-search,
@@ -2996,7 +2992,7 @@ ul {
     position: fixed;
     max-height: 100%;
     overflow-y: auto;
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;
+    background-color: #fff;
     -webkit-transition: -webkit-transform .3s;
     transition: -webkit-transform .3s;
     transition: transform .3s;
@@ -3229,7 +3225,7 @@ ul {
     font-size: 16px;
     line-height: 48px;
     text-align: center;
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;
+    background: #fff;
     border: none;
     cursor: pointer
 }
@@ -3466,12 +3462,12 @@ ul {
 }
 
 .van-popover--light .van-popover__content {
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;
+    background-color: #fff;
     box-shadow: 0 2px 12px rgba(50, 50, 51, .12)
 }
 
 .van-popover--light .van-popover__arrow {
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;
+    color: #fff
 }
 
 .van-popover--light .van-popover__action:active {
@@ -3488,7 +3484,7 @@ ul {
 }
 
 .van-popover--dark {
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;
+    color: #fff
 }
 
 .van-popover--dark .van-popover__content {
@@ -3544,7 +3540,7 @@ ul {
     justify-content: center;
     box-sizing: border-box;
     padding: 8px 16px;
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;;
+    color: #fff;
     font-size: 14px;
     line-height: 20px;
     white-space: pre-wrap;
@@ -3934,7 +3930,7 @@ ul {
     height: 48px;
     font-size: 28px;
     line-height: 1.5;
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;
+    background-color: #fff;
     border-radius: 8px;
     cursor: pointer
 }
@@ -3958,7 +3954,7 @@ ul {
 }
 
 .van-key--blue {
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;;
+    color: #fff;
     background-color: #48dae9
 }
 
@@ -3993,7 +3989,7 @@ ul {
 }
 
 .van-key__loading-icon {
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;
+    color: #fff
 }
 
 .van-list__error-text,
@@ -4026,7 +4022,7 @@ ul {
 .van-switch,
 .van-switch__node {
     height: 1em;
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;
+    background-color: #fff
 }
 
 .van-switch__node {
@@ -4135,7 +4131,7 @@ ul {
 }
 
 .van-button--primary {
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;;
+    color: #fff;
     background-color: #48dae9;
     border: 1px solid #48dae9
 }
@@ -4147,19 +4143,19 @@ ul {
 }
 
 .van-button--danger {
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;;
+    color: #fff;
     background-color: #ee0a24;
     border: 1px solid #ee0a24
 }
 
 .van-button--warning {
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;;
+    color: #fff;
     background-color: #ff976a;
     border: 1px solid #ff976a
 }
 
 .van-button--plain {
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;
+    background-color: #fff
 }
 
 .van-button--plain.van-button--primary {
@@ -4285,7 +4281,7 @@ ul {
     width: 100%;
     padding-bottom: constant(safe-area-inset-bottom);
     padding-bottom: env(safe-area-inset-bottom);
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;
+    background-color: #fff;
     -webkit-user-select: none;
     user-select: none
 }
@@ -4295,7 +4291,7 @@ ul {
     color: #f56723;
     font-size: 12px;
     line-height: 1.5;
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;
+    background-color: #fff7cc
 }
 
 .van-submit-bar__tip-icon {
@@ -4429,7 +4425,7 @@ ul {
     max-width: 70%;
     min-height: 88px;
     padding: 16px;
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;;
+    color: #fff;
     font-size: 14px;
     line-height: 20px;
     white-space: pre-wrap;
@@ -4478,7 +4474,7 @@ ul {
 
 .van-toast__loading {
     padding: 4px;
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;
+    color: #fff
 }
 
 .van-toast__text {
@@ -4494,7 +4490,7 @@ ul {
     -webkit-flex-direction: column;
     flex-direction: column;
     height: 100%;
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;
+    background-color: #fff
 }
 
 .van-calendar__popup.van-popup--bottom,
@@ -4608,7 +4604,7 @@ ul {
 .van-calendar__day--multiple-selected,
 .van-calendar__day--start,
 .van-calendar__day--start-end {
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;;
+    color: #fff;
     background-color: #ee0a24
 }
 
@@ -4673,7 +4669,7 @@ ul {
 .van-calendar__selected-day {
     width: 54px;
     height: 54px;
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;;
+    color: #fff;
     background-color: #ee0a24;
     border-radius: 4px
 }
@@ -4697,7 +4693,7 @@ ul {
 
 .van-picker {
     position: relative;
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;
+    background-color: #fff;
     -webkit-user-select: none;
     user-select: none
 }
@@ -4863,7 +4859,7 @@ ul {
     width: 100%;
     padding: 14px 16px;
     font-size: 16px;
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;
+    background-color: #fff;
     border: none;
     cursor: pointer
 }
@@ -4884,7 +4880,7 @@ ul {
 
 .van-action-sheet__item--disabled:active,
 .van-action-sheet__item--loading:active {
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;
+    background-color: #fff
 }
 
 .van-action-sheet__item--disabled {
@@ -4982,7 +4978,7 @@ ul {
     height: 50px;
     padding-bottom: constant(safe-area-inset-bottom);
     padding-bottom: env(safe-area-inset-bottom);
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;
+    background-color: #fff
 }
 
 .van-goods-action--unfit {
@@ -4996,7 +4992,7 @@ ul {
     width: 320px;
     overflow: hidden;
     font-size: 16px;
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;
+    background-color: #fff;
     border-radius: 16px;
     -webkit-transform: translate3d(-50%, -50%, 0);
     transform: translate3d(-50%, -50%, 0);
@@ -5106,7 +5102,7 @@ ul {
 }
 
 .van-dialog--round-button .van-dialog__confirm {
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;
+    color: #fff
 }
 
 .van-dialog-bounce-enter {
@@ -5253,7 +5249,7 @@ ul {
     padding: 0 16px;
     padding-bottom: constant(safe-area-inset-bottom);
     padding-bottom: env(safe-area-inset-bottom);
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;
+    background-color: #fff
 }
 
 .van-contact-list__add {
@@ -5277,7 +5273,7 @@ ul {
     padding: 0 16px;
     padding-bottom: constant(safe-area-inset-bottom);
     padding-bottom: env(safe-area-inset-bottom);
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;
+    background-color: #fff
 }
 
 .van-address-list__add {
@@ -5294,7 +5290,7 @@ ul {
 
 .van-address-item {
     padding: 12px;
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;
+    background-color: #fff;
     border-radius: 8px
 }
 
@@ -5367,14 +5363,14 @@ ul {
     box-sizing: border-box;
     min-width: 16px;
     padding: 0 3px;
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;;
+    color: #fff;
     font-weight: 500;
     font-size: 12px;
     font-family: -apple-system-font, Helvetica Neue, Arial, sans-serif;
     line-height: 1.2;
     text-align: center;
     background-color: #ee0a24;
-    border: 1px solid #F067B4;
+    border: 1px solid #fff;
     border-radius: 999px
 }
 
@@ -5501,7 +5497,7 @@ ul {
     display: -webkit-box;
     display: -webkit-flex;
     display: flex;
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;
+    background-color: #fff;
     -webkit-user-select: none;
     user-select: none
 }
@@ -5535,7 +5531,7 @@ ul {
 }
 
 .van-tabs__nav--card .van-tab.van-tab--active {
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;;
+    color: #fff;
     background-color: #ee0a24
 }
 
@@ -5613,7 +5609,7 @@ ul {
     -webkit-box-align: center;
     -webkit-align-items: center;
     align-items: center;
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;
+    background-color: #fff
 }
 
 .van-coupon-list__exchange {
@@ -5650,7 +5646,7 @@ ul {
     width: 100%;
     padding: 5px 16px;
     font-weight: 500;
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;
+    background-color: #fff
 }
 
 .van-coupon-list__close {
@@ -5766,7 +5762,7 @@ ul {
 }
 
 .van-cell-group {
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;
+    background-color: #fff
 }
 
 .van-cell-group--inset {
@@ -5787,7 +5783,7 @@ ul {
 }
 
 .van-panel {
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);
+    background: #fff
 }
 
 .van-panel__header-value {
@@ -5823,8 +5819,9 @@ ul {
 }
 
 .van-circle__layer {
-    stroke: #F067B4
+    stroke: #fff
 }
+
 .van-circle__hover {
     fill: none;
     stroke: #48dae9;
@@ -6122,7 +6119,7 @@ ul {
     display: -webkit-flex;
     display: flex;
     height: 48px;
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;
+    background-color: #fff;
     box-shadow: 0 2px 12px rgba(100, 101, 102, .12)
 }
 
@@ -6385,7 +6382,7 @@ ul {
     position: absolute;
     top: 16px;
     left: 50%;
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;;
+    color: #fff;
     font-size: 14px;
     line-height: 20px;
     text-shadow: 0 1px 1px #323233;
@@ -6533,7 +6530,7 @@ ul {
     position: absolute;
     top: -2px;
     right: -2px;
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;;
+    color: #fff;
     font-size: 16px;
     -webkit-transform: scale(.5);
     transform: scale(.5)
@@ -6562,7 +6559,7 @@ ul {
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     justify-content: center;
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;;
+    color: #fff;
     background-color: rgba(50, 50, 51, .88)
 }
 
@@ -6580,7 +6577,7 @@ ul {
 .van-uploader__loading {
     width: 22px;
     height: 22px;
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;
+    color: #fff
 }
 
 .van-uploader__file {
@@ -6634,7 +6631,7 @@ ul {
     right: 0;
     left: 0;
     color: #ee0a24;
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;
+    background-color: #fff
 }
 
 .van-index-bar__sidebar {
@@ -6696,14 +6693,14 @@ ul {
     min-width: 36px;
     height: 40px;
     color: #48dae9;
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;
+    background-color: #fff;
     cursor: pointer;
     -webkit-user-select: none;
     user-select: none
 }
 
 .van-pagination__item:active {
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;;
+    color: #fff;
     background-color: #48dae9
 }
 
@@ -6716,7 +6713,7 @@ ul {
 }
 
 .van-pagination__item--active {
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;;
+    color: #fff;
     background-color: #48dae9
 }
 
@@ -6805,7 +6802,7 @@ ul {
     height: 100%;
     font-size: 20px;
     line-height: 1.2;
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;
+    background-color: #fff
 }
 
 .van-password-input__security i {
@@ -6881,7 +6878,7 @@ ul {
     box-sizing: border-box;
     min-width: 3.6em;
     padding: 0 5px;
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;;
+    color: #fff;
     font-size: 10px;
     line-height: 1.6;
     text-align: center;
@@ -6979,7 +6976,7 @@ ul {
     -webkit-flex: 2;
     flex: 2;
     overflow-y: auto;
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;
+    background-color: #fff;
     -webkit-overflow-scrolling: touch
 }
 
@@ -7203,13 +7200,13 @@ ul {
 }
 
 .van-stepper--round .van-stepper__plus {
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;;
+    color: #fff;
     background-color: #ee0a24
 }
 
 .van-stepper--round .van-stepper__minus {
     color: #ee0a24;
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;
+    background-color: #fff;
     border: 1px solid #ee0a24
 }
 
@@ -7228,7 +7225,7 @@ ul {
     max-height: 80%;
     overflow-y: visible;
     font-size: 14px;
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);
+    background: #fff
 }
 
 .van-sku-body {
@@ -7445,7 +7442,7 @@ ul {
     z-index: 3;
     width: 18px;
     height: 18px;
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;;
+    color: #fff;
     line-height: 18px;
     text-align: center;
     background-color: rgba(0, 0, 0, .4);
@@ -7692,7 +7689,7 @@ ul {
 .van-slider__button {
     width: 24px;
     height: 24px;
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;
+    background-color: #fff;
     border-radius: 50%;
     box-shadow: 0 1px 2px rgba(0, 0, 0, .5)
 }
@@ -7759,7 +7756,7 @@ ul {
 
 .van-steps {
     overflow: hidden;
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;
+    background-color: #fff
 }
 
 .van-steps--horizontal {
@@ -7823,7 +7820,7 @@ ul {
     height: 50px;
     padding-bottom: constant(safe-area-inset-bottom);
     padding-bottom: env(safe-area-inset-bottom);
-    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);;
+    background-color: #fff
 }
 
 .van-tabbar--fixed {
