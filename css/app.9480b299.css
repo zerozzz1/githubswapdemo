@@ -21,7 +21,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #e9e9e9;
+    
     font-size: 20px
 }
 
@@ -285,13 +285,13 @@
 }
 
 .currencyList .van-dialog__header[data-v-18c87c81] {
-    width: 100%;
+    width: 88%;
     text-align: center;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    
     font-weight: 700;
     font-size: 20px;
     position: relative
@@ -341,7 +341,7 @@
 
 .currencyList .btContent .inputWrap .tokenInput[data-v-18c87c81] {
     height: 50px;
-    background-image: linear-gradient( 135deg, #79F1A4 10%, #0E5CAD 100%);
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
     border: 1px solid #e9dcff;
     margin-top: 15px;
     border-radius: 4px
@@ -412,7 +412,7 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 22px;
-    color: #48dae9;
+    background-image: linear-gradient(-20deg, #ddd6f3 0%, #faaca8 100%, #faaca8 100%);
     text-align: center;
     cursor: pointer
 }
@@ -681,7 +681,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+   
     font-weight: 700;
     font-size: 20px
 }
@@ -769,7 +769,7 @@
 }
 
 .swap[data-v-477c8266] {
-    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
     width: 100%;
     border-radius: 20px;
     box-shadow: 0 6px 32px rgba(13, 13, 13, .08)
@@ -816,7 +816,7 @@
 .swap .container .box[data-v-477c8266] {
     padding: 10px 15px;
     border-radius: 10px;
-    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
     border: 1px solid #dedede
 }
 
@@ -950,7 +950,7 @@
    
     margin: 0 auto;
     max-width: 600px;
-    padding-top: 24px
+    padding-top: 150px
     
 }
 
@@ -1273,8 +1273,4 @@
     padding-left: 16px
 }
 
-html {    
-    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%); 
-    background-size: cover;
-  }
-  
+
